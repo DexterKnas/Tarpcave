@@ -8,8 +8,5 @@ public class GameMaster : MonoBehaviour {
     {
         if (Input.GetKey(KeyCode.Escape))
             Application.LoadLevel(0);
-
-		if (Input.GetKey (KeyCode.F1))
-			Application.LoadLevel (1);
 	}
 }

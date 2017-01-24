@@ -14,14 +14,6 @@ public class Turret : MonoBehaviour
 
 		targetPlayer = GameObject.FindWithTag ("Player1").transform;
 
-		/*targetPlayer = GameObject.FindWithTag ("Player1").transform;
-
-		targetTurret = GameObject.FindWithTag ("Turret").transform;
-
-		rb.AddForce (transform.right * targetPlayer.transform.position.x);
-
-		rb.AddForce (transform.up * targetPlayer.transform.position.y);*/
-
 	}
 	
 	// Update is called once per frame
